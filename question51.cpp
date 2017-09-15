@@ -2,11 +2,10 @@
 using namespace std;
 int main()
 {
-	int n, i j,c,l,s=0;
+	int n, i,j,c,s=0;
 	cout<<"Enter a number:";
 	cin>>n;
-	i=n;
-	l=n%10;
+	i=n*10;
 	while(i>0)
 	{
 		i=i/10;
